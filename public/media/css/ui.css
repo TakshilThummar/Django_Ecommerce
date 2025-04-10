@@ -437,7 +437,7 @@ article:after,
 }
 
 .section-content .card:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 
 .card .title {
@@ -754,6 +754,7 @@ p:last-child {
 .btn-light {
     background-color: #fff;
     border-color: #e4e4e4;
+    margin: 10px 10px;
 }
 
 .btn-light i {

@@ -2186,6 +2186,7 @@ pre code {
     font-weight: 400;
     line-height: 1.5;
     color: black;
+    box-shadow: 0 0 4px black;
     background-color: #fff;
     background-clip: padding-box;
     border: 1px solid #ced4da;
@@ -2777,7 +2778,6 @@ textarea.form-control.is-invalid {
     display: inline-block;
     font-weight: 600;
     color: #545454;
-    border: none;
     text-align: center;
     vertical-align: middle;
     -webkit-user-select: none;
@@ -2785,9 +2785,9 @@ textarea.form-control.is-invalid {
     -ms-user-select: none;
     user-select: none;
     background-color: transparent;
-    border: 1px solid transparent;
     padding: 0.45rem 0.85rem;
     font-size: 50px;
+    box-shadow: 0 0 10px black;
     line-height: 1.5;
     border-radius: 0.37rem;
     transition: all 0.5s ease-in-out;
@@ -2837,7 +2837,6 @@ fieldset:disabled a.btn {
 
 .btn-primary:hover {
     transform: scale(1.05);
-    border: none;
 }
 
 .btn-primary:focus,
@@ -4262,7 +4261,7 @@ input[type="button"].btn-block {
     border: none;
     box-shadow: 0 0 4px black;
     height: 50px;
-    width: 50px;
+    width: 70px;
 }
 
 .input-group-prepend .btn:focus,
