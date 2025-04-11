@@ -1,0 +1,11 @@
+django
+decouple
+python-decouple
+django-allauth
+django_countries
+django_crispy_forms
+crispy_bootstrap4
+razorpay
+weasyprint
+PyJWT
+cryptography
